@@ -1,7 +1,11 @@
 # DocuSaurus
 
 [&#x213C;](#idxXXX)<br id="idx000"><br>
-# ROOT: Install
+## NAT
+* Map 127.0.0.1:5001 (Host) --- 10.0.2.15:3000 (Guest)
+
+[&#x213C;](#idxXXX)<br id="idx001"><br>
+## Debian Packages (ROOT)
 
 ```
 #!/bin/bash
@@ -17,8 +21,9 @@ time apt-get install $DEBS -y
 
 ```
 
-[&#x213C;](#)<br id="idx001"><br>
-## PURGE YARN (JEKYLL)
+[&#x213C;](#)<br id="idx002"><br>
+## Removed Packages (ROOT)
+* CMDTEST (yarn) for Jekyll
 
 ```
 aptitude purge cmdtest
@@ -26,15 +31,15 @@ aptitude purge cmdtest
 
 ```
 
-[&#x213C;](#)<br id="idx002"><br>
-## USER: NVM (node.js)
+[&#x213C;](#)<br id="idx003"><br>
+## Install NVM/node.js (USER)
 
 ```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 ```
 
-[&#x213C;](#)<br id="idx003"><br>
+[&#x213C;](#)<br id="idx004"><br>
 ## Check it out! (E.g. v20.11.1)
 
 ```
@@ -43,7 +48,7 @@ nvm ls-remote
 
 ```
 
-[&#x213C;](#)<br id="idx004"><br>
+[&#x213C;](#)<br id="idx005"><br>
 ## Install and Check Version (e.g. v20.11.1)
 
 ```
@@ -53,7 +58,7 @@ node -v
 
 ```
 
-[&#x213C;](#)<br id="idx005"><br>
+[&#x213C;](#)<br id="idx006"><br>
 ## YARN
 
 ```
@@ -65,7 +70,7 @@ yarn --version
 
 ```
 
-[&#x213C;](#)<br id="idx006"><br>
+[&#x213C;](#)<br id="idx007"><br>
 ## USER: 
 
 ```
@@ -73,7 +78,7 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 
 ```
 
-[&#x213C;](#)<br id="idx007"><br>
+[&#x213C;](#)<br id="idx008"><br>
 ## USER: 
 
 ```
@@ -82,7 +87,7 @@ npm run start -- --host 0.0.0.0
 
 ```
 
-[&#x213C;](#)<br id="idx008"><br>
+[&#x213C;](#)<br id="idx009"><br>
 
 * <https://docusaurus.io/docs/>
 * <https://cbkadal.github.io/231saurus/docs/AP01/02/>
@@ -91,7 +96,7 @@ npm run start -- --host 0.0.0.0
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV00: Sun 17 Mar 2024 19:00
+REV00: Sun 17 Mar 2024 20:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 
