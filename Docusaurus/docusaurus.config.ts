@@ -3,13 +3,13 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'DocuDemo',                // Or else
+  title: 'dtest',                // Or else
   tagline: 'This is the Way!',      // Or else
   favicon: 'img/favicon.ico',       // Or else
   url: 'https://abusass.github.io',  // Or else
   baseUrl: '/dtest/',               // Or else
-  organizationName: 'cbkadal',       // (Usually your GitHub org/user name)
-  projectName: 'DocuDemo',          // (Usually your repo name)
+  organizationName: 'abusass',       // (Usually your GitHub org/user name)
+  projectName: 'dtest',          // (Usually your repo name)
   trailingSlash: true,              // "true/" or "false"
 
   // title: 'My Site',
