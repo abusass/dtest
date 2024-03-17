@@ -3,13 +3,13 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'dtest',                // Or else
+  title: 'Demo',                    // Or else
   tagline: 'This is the Way!',      // Or else
   favicon: 'img/favicon.ico',       // Or else
-  url: 'https://abusass.github.io',  // Or else
+  url: 'https://abusass.github.io', // Or else
   baseUrl: '/dtest/',               // Or else
-  organizationName: 'abusass',       // (Usually your GitHub org/user name)
-  projectName: 'dtest',          // (Usually your repo name)
+  organizationName: 'abusass',      // (Usually your GitHub org/user name)
+  projectName: 'dtest',             // (Usually your repo name)
   trailingSlash: true,              // "true/" or "false"
 
   // title: 'My Site',
@@ -81,7 +81,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/abusass/dtest',
           label: 'GitHub',
           position: 'right',
         },
@@ -103,14 +103,6 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
             },
@@ -125,12 +117,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/abusass/dtest',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BinKadal, Sdn. Bhd.`,
     },
     prism: {
       theme: prismThemes.github,

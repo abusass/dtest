@@ -12,8 +12,6 @@
 ## Debian Packages (ROOT)
 
 ```
-#!/bin/bash
-MYUSER="cbkadal"
 export DEBS="
 aptitude
 git
