@@ -18,6 +18,15 @@ time apt-get install $DEBS -y
 ```
 
 [&#x213C;](#)<br id="idx001"><br>
+## PURGE
+
+```
+aptitude purge cmdtest
+
+
+```
+
+[&#x213C;](#)<br id="idx001"><br>
 ## USER: NVM (node.js)
 
 ```
@@ -73,6 +82,6 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV00: Sun 17 Mar 2024 17:00
+REV00: Sun 17 Mar 2024 18:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
