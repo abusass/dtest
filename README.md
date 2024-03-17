@@ -4,7 +4,11 @@
 ## NAT
 * Map 127.0.0.1:5001 (Host) --- 10.0.2.15:3000 (Guest)
 
-[&#x213C;](#idxXXX)<br id="idx001"><br>
+[&#x213C;](#)<br id="idx001"><br>
+## .gitignore
+* See: https://raw.githubusercontent.com/abusass/dtest/master/.gitignore
+
+[&#x213C;](#)<br id="idx001"><br>
 ## Debian Packages (ROOT)
 
 ```
