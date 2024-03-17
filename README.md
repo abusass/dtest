@@ -37,7 +37,9 @@ aptitude purge cmdtest
 ## Install NVM/node.js (USER)
 
 ```
-### For NVM_RELEASES, check: https://github.com/nvm-sh/nvm/releases
+### For NVM_RELEASES
+### check: https://github.com/nvm-sh/nvm/releases
+
 NVM_RELEASE="v0.39.7"
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASE/install.sh | bash
 
