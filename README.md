@@ -3,7 +3,23 @@
 [&#x213C;](#idxXXX)<br id="idx000"><br>
 
 ```
-npx create-docusaurus@latest my-website classic
+#!/bin/bash
+MYUSER="cbkadal"
+export DEBS="
+aptitude
+git
+sudo
+vim
+"
+date;
+time apt-get install $DEBS -y
+
+```
+
+[&#x213C;](#)<br id="idx001"><br>
+
+```
+npx create-docusaurus@latest Docusaurus classic --typescript
 
 ```
 
