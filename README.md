@@ -26,7 +26,7 @@ aptitude purge cmdtest
 
 ```
 
-[&#x213C;](#)<br id="idx001"><br>
+[&#x213C;](#)<br id="idx002"><br>
 ## USER: NVM (node.js)
 
 ```
@@ -34,7 +34,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 ```
 
-[&#x213C;](#)<br id="idx002"><br>
+[&#x213C;](#)<br id="idx003"><br>
 ## Check it out! (E.g. v20.11.1)
 
 ```
@@ -43,7 +43,7 @@ nvm ls-remote
 
 ```
 
-[&#x213C;](#)<br id="idx002"><br>
+[&#x213C;](#)<br id="idx004"><br>
 ## Install and Check Version (e.g. v20.11.1)
 
 ```
@@ -53,7 +53,7 @@ node -v
 
 ```
 
-[&#x213C;](#)<br id="idx002"><br>
+[&#x213C;](#)<br id="idx005"><br>
 ## YARN
 
 ```
@@ -65,7 +65,7 @@ yarn --version
 
 ```
 
-[&#x213C;](#)<br id="idx002"><br>
+[&#x213C;](#)<br id="idx006"><br>
 ## USER: 
 
 ```
@@ -73,7 +73,16 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 
 ```
 
-[&#x213C;](#)<br id="idx003"><br>
+[&#x213C;](#)<br id="idx007"><br>
+## USER: 
+
+```
+cd Docusaurus
+npm run start -- --host 0.0.0.0
+
+```
+
+[&#x213C;](#)<br id="idx008"><br>
 
 * <https://docusaurus.io/docs/>
 * <https://cbkadal.github.io/231saurus/docs/AP01/02/>
@@ -82,6 +91,7 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV00: Sun 17 Mar 2024 18:30
+REV00: Sun 17 Mar 2024 19:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
+
