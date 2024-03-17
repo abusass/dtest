@@ -2,6 +2,10 @@
 
 [&#x213C;](#idxXXX)<br id="idx000"><br>
 
+```
+npx create-docusaurus@latest my-website classic
+
+```
 
 
 
