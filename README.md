@@ -35,12 +35,14 @@ aptitude purge cmdtest
 ## Install NVM/node.js (USER)
 
 ```
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+### For NVM_RELEASES, check: https://github.com/nvm-sh/nvm/releases
+NVM_RELEASE="v0.39.7"
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASES/install.sh | bash
 
 ```
 
 [&#x213C;](#)<br id="idx004"><br>
-## Check it out! (E.g. v20.11.1)
+### Check Node.js Version (USER)
 
 ```
 nvm ls-remote
@@ -49,29 +51,30 @@ nvm ls-remote
 ```
 
 [&#x213C;](#)<br id="idx005"><br>
-## Install and Check Version (e.g. v20.11.1)
+## Install and Check Version (USER)
 
 ```
-nvm install v20.11.1
+NODE_VERSION="v20.11.1"
+nvm install $NODE_VERSION
 sleep 2
 node -v
 
 ```
 
 [&#x213C;](#)<br id="idx006"><br>
-## YARN
+## YARN (USER)
 
 ```
 npm install -g yarn
 sleep 2
 yarn --version
-# UPDATE
+# UPDATE 10.5.0
 # npm install -g npm@10.5.0
 
 ```
 
 [&#x213C;](#)<br id="idx007"><br>
-## USER: 
+## Docusaurus (USER) 
 
 ```
 npx create-docusaurus@latest Docusaurus classic --typescript
@@ -79,11 +82,21 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 ```
 
 [&#x213C;](#)<br id="idx008"><br>
-## USER: 
+## Start Docusaurus (USER)
 
 ```
 cd Docusaurus
 npm run start -- --host 0.0.0.0
+
+```
+
+[&#x213C;](#)<br id="idx009"><br>
+## Deploy To GitHub
+
+```
+export GIT_USER="cbkadal"
+export USE_SSH="true"
+yarn deploy
 
 ```
 
