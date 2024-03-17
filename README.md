@@ -39,7 +39,7 @@ aptitude purge cmdtest
 ```
 ### For NVM_RELEASES, check: https://github.com/nvm-sh/nvm/releases
 NVM_RELEASE="v0.39.7"
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASES/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASE/install.sh | bash
 
 ```
 
@@ -125,7 +125,7 @@ yarn deploy
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV00: Sun 17 Mar 2024 20:00
+REV00: Sun 17 Mar 2024 21:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 
