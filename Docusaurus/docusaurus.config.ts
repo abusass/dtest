@@ -6,9 +6,9 @@ const config: Config = {
   title: 'DocuDemo',                // Or else
   tagline: 'This is the Way!',      // Or else
   favicon: 'img/favicon.ico',       // Or else
-  url: 'https://cbkadal.github.io', // Or else
+  url: 'https://abusass.github.io',  // Or else
   baseUrl: '/dtest/',               // Or else
-  organizationName: 'abuass',       // (Usually your GitHub org/user name)
+  organizationName: 'cbkadal',       // (Usually your GitHub org/user name)
   projectName: 'DocuDemo',          // (Usually your repo name)
   trailingSlash: true,              // "true/" or "false"
 
