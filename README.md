@@ -18,7 +18,7 @@ time apt-get install $DEBS -y
 ```
 
 [&#x213C;](#)<br id="idx001"><br>
-## PURGE
+## PURGE YARN (JEKYLL)
 
 ```
 aptitude purge cmdtest
