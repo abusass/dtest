@@ -91,6 +91,21 @@ npm run start -- --host 0.0.0.0
 ```
 
 [&#x213C;](#)<br id="idx009"><br>
+## docusaurus.config.js
+
+```
+  title: 'dtest',                   // Or else
+  tagline: 'This is the Way!',      // Or else
+  favicon: 'img/favicon.ico',       // Or else
+  url: 'https://abusass.github.io', // Or else
+  baseUrl: '/dtest/',               // Or else
+  organizationName: 'abusass',      // (Usually your GitHub org/user name)
+  projectName: 'dtest',             // (Usually your repo name)
+  trailingSlash: true,              // "true/" or "false"
+
+```
+
+[&#x213C;](#)<br id="idx009"><br>
 ## Deploy To GitHub
 
 ```
@@ -104,7 +119,6 @@ yarn deploy
 
 * <https://docusaurus.io/docs/>
 * <https://cbkadal.github.io/231saurus/docs/AP01/02/>
-
 
 [&#x213C;](#)<br id="idxXXX"><br>
 
